@@ -45,3 +45,9 @@ import sqlalchemy as sal
 engine = sal.create_engine("mysql+pymysql://root:YOUR_PASSWORD@localhost:3306/orders")
 conn = engine.connect()
 df.to_sql('df_orders', con=conn, index=False, if_exists='append')
+
+
+🙌 Acknowledgments
+Dataset by Ankit Bansal on Kaggle
+
+Tools: Kaggle API, Pandas, SQLAlchemy, MySQL
